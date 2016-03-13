@@ -1,0 +1,402 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@font-face {
+    font-family: 'Xilosa';
+    src: url('../fonts/xilosa.ttf');
+}
+
+.header {
+    padding: 1em 0;
+    /*background-color: rgb(49, 57, 62);*/
+    /*background-color: rgb(255, 141, 0);*/
+    /*background-color:rgb(170, 57, 57);*/
+    /*background-color: rgb(6, 36, 56);*/
+    background-color: rgb(56, 53, 36);
+    /*background-color: rgb(120, 147, 255);*/
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 1em 0 0 0;
+}
+
+.navbar-brand {
+
+    margin-top: -47px;
+
+}
+
+.navbar-default {
+    background: none !important;
+    border: none !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #f5e413;
+    background: none !important;
+    border-radius: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #f5f5f5;
+    font-size: 1.5em;
+    font-family: 'Xilosa';
+}
+
+.btn-primary.raised:active, .btn-primary.raised.active {
+    background: #33a6cc;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.btn-warning.raised:active, .btn-warning.raised.active {
+    background: #33a6cc;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #f5e413;
+    background: none !important;
+    border-radius: 5px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #f5e413;
+    background-color: #fff;
+}
+
+.gesol {
+    height: auto;
+}
+
+.gesol h2 {
+    font-family: 'Dosis', sans-serif;
+    color: #020c02;
+    font-size: 40px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    padding-top: 120px;
+}
+
+.gesol p {
+    /*font-family: 'Dosis', sans-serif*/
+    font-family: 'Indie Flower', cursive;
+    /*font-family: 'Poiret One', cursive;*/
+    color: #fbf0ff;
+    font-size: 30px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+}
+
+.gesol a {
+
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 100;
+    color: #020c02;
+}
+
+.gesol .btn {
+
+    background-color: #FF9E00;
+    border-color: #020c02;
+}
+
+.colaborar {
+
+}
+
+.colaborar h3 {
+
+    font-family: 'Dosis', sans-serif;
+    color: #020c02;
+    font-size: 25px;
+    letter-spacing: 0.8px;
+}
+
+.colaborar p {
+
+    font-family: 'Dosis', sans-serif;
+    color: #020c02;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+.colaborar span {
+    font-size: 6em;
+    color: #020c02;
+    margin-left: 60px;
+}
+
+.eventos {
+
+    height: auto;
+}
+
+.eventos h2 {
+
+    font-family: 'Dosis', sans-serif;
+    color: #020c02;
+    font-size: 38px;
+    letter-spacing: 0.8px;
+}
+
+/* Agenda-Eventos */
+.agenda .agenda-date {
+    width: 170px;
+}
+
+.agenda .agenda-date .dayofmonth {
+
+    width: 40px;
+    font-size: 36px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 36px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+    color: #FF9E00;
+}
+
+.agenda .agenda-date .shortdate {
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.agenda .dayofweek {
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+/* Hora */
+.agenda .agenda-time {
+    width: 140px;
+
+}
+
+/*COMUNIDADES/APOIO*/
+
+.comunidades {
+
+    height: 400px;
+
+}
+
+.comunidades .titulo {
+    font-family: 'Dosis', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0.8px;
+
+}
+
+.comunidades img {
+
+    margin-left: 20px;
+
+}
+
+/*COMUNIDADES/APOIO*/
+
+/*CONTATO*/
+.contato {
+    color: #fff;
+    padding: 1em;
+}
+
+.contato h3 {
+    margin-bottom: 30px;
+    font-family: "Dosis";
+    font-size: 40px;
+}
+
+.contato h3 span {
+
+    font-size: 2.3em;
+}
+
+.contato a {
+    color: #f1ff05;
+}
+
+.form-control {
+    padding: 20px 15px;
+    border: 3px solid #eee;
+    background-color: #f9f9f9;
+    box-shadow: none;
+}
+
+.help-block {
+    font-size: 12px;
+}
+
+.form-control-feedback {
+    top: 15px;
+    right: 15px;
+}
+
+/*CONTATO*/
+
+/*MEMBROS*/
+
+.bg-membros {
+
+    background-color: #FF9E00;
+
+}
+
+.membros h2 {
+
+    font-size: 60px;
+    color: #f5f5f5;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+
+}
+
+.membros .thumbnail:hover {
+    box-shadow: 3px 3px 10px #ccc;
+    transform: translateY(-10px);
+
+}
+
+.membros img {
+    border: 4px solid #efefef;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.membros h3 {
+    color: #3c3f41;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+.membros p {
+    color: #3c3f41;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+.membros i {
+    margin: 10px 5px;
+}
+
+/*MEMBROS*/
+
+/*FOOTER*/
+
+.footer img {
+
+    opacity: 0.5;
+}
+
+.footer img:hover {
+
+    opacity: 1.5;
+}
+
+/*FOOTER*/
+
+.linha {
+    width: 100%;
+    height: 10px;
+    background-color: #101010;
+}
+
+/*BACKGROUNDS*/
+.bg-preto {
+    background-color: #3a3a3a;
+}
+
+.bg-branco {
+    background-color: #ffffff;
+
+}
+
+.bg-azul {
+
+    background-color: #236174;
+}
+
+.bg-laranja {
+    background-color: #FF9E00;
+
+}
+
+.bg-amarelo {
+    background-color: #fcd93b;
+}
+
+.listra {
+    background-image: -moz-linear-gradient(45deg, #666 25%, transparent 25%),
+    -moz-linear-gradient(-45deg, #666 25%, transparent 25%),
+    -moz-linear-gradient(45deg, transparent 75%, #666 75%),
+    -moz-linear-gradient(-45deg, transparent 75%, #666 75%);
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #666), color-stop(.25, transparent)),
+    -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #666), color-stop(.25, transparent)),
+    -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #666)),
+    -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #666));
+    background-image: -webkit-linear-gradient(45deg, #666 25%, transparent 25%),
+    -webkit-linear-gradient(-45deg, #666 25%, transparent 25%),
+    -webkit-linear-gradient(45deg, transparent 75%, #666 75%),
+    -webkit-linear-gradient(-45deg, transparent 75%, #666 75%);
+    background-image: -o-linear-gradient(45deg, #666 25%, transparent 25%),
+    -o-linear-gradient(-45deg, #666 25%, transparent 25%),
+    -o-linear-gradient(45deg, transparent 75%, #666 75%),
+    -o-linear-gradient(-45deg, transparent 75%, #666 75%);
+    background-image: linear-gradient(45deg, #666 25%, transparent 25%),
+    linear-gradient(-45deg, #666 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #666 75%),
+    linear-gradient(-45deg, transparent 75%, #666 75%);
+    -moz-background-size: 2px 2px;
+    background-size: 2px 2px;
+    -webkit-background-size: 2px 2.1px; /* override value for webkit */
+    background-position: 0 0, 1px 0, 1px -1px, 0px 1px;
+}
+
+/*BACKGROUNDS*/
+
+@media (max-width: 767px) {
+    .gesol img {
+        display: none;
+    }
+
+    .gesol h2 {
+        font-size: 30px;
+        padding-top: 0;
+    }
+
+    .comunidades {
+        height: auto;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    .gesol {
+
+        height: 650px;
+
+    }
+
+}

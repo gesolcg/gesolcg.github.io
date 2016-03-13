@@ -1,1 +1,1 @@
-# gesolcg.github.io
+# gesol.github.io
